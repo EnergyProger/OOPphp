@@ -10,7 +10,7 @@ class Square implements IFigure
     {
         $this->name = $name;
         $this->color = $color;
-        $this->side = rand();
+        $this->side = rand(5,1000);
     }
     
     public function Side()

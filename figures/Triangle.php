@@ -11,8 +11,8 @@ class Triangle implements IFigure
     {
         $this->name = $name;
         $this->color = $color;
-        $this->sideA = rand();
-        $this->sideB = rand();
+        $this->sideA = rand(5,1000);
+        $this->sideB = rand(5,1000);
     }
     
     public function Hypotenuse()
