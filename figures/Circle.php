@@ -23,7 +23,7 @@ class Circle implements IFigure
     
     public function Area()
     {
-        return M_PI * pow($this->radius, 2);
+        return round(M_PI * pow($this->radius, 2),2);
     }
     
     public function Color()

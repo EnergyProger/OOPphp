@@ -7,8 +7,8 @@ require ('figures/Triangle.php');
 require ('figures/Circle.php');
 require ('figures/Trapeze.php');
 
-
-$num = rand(100,1000);
+//Без діапазону чисел не коректно працює
+$num = (int)rand(0,10000);
 
 
 $figures = [];

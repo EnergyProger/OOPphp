@@ -1,3 +1,5 @@
+<?php include('setting.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-    
+  
+    <?php foreach($figures as $figure):?>
+        <p><?php echo $figure->Print();?></p>
+    <?php endforeach;?>
 </body>
 </html>
