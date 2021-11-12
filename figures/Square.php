@@ -10,7 +10,7 @@ class Square implements IFigure
     {
         $this->name = $name;
         $this->color = $color;
-        $this->side = rand(5,10);
+        $this->side = rand();
     }
     
     public function Side()
@@ -30,6 +30,6 @@ class Square implements IFigure
     
     public function Print()
     {
-        return "Фігура: $this->name, площа: ".$this->Area()." кв.од., довжина сторони: $this->side од., колір: ".$this->Color();
+        return "Фігура: $this->name, площа: ".$this->Area()." кв.од., довжина сторони: ". $this->Side()." од., колір: ".$this->Color();
     }
 }
