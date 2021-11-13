@@ -1,5 +1,6 @@
 <?php
 
+
 interface IFigure
 {
    public function Area();

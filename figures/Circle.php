@@ -6,7 +6,6 @@ class Circle implements IFigure
     private $color;
     private $radius;
    
-    
     public function __construct($name, $color)
     {
         $this->name = $name;
